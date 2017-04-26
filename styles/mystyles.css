@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: 'Avenir W01';
+	color: whitesmoke;
+	background-color: black;
+}
+h1 {
+	color: #7039A6;
+}
+.container {
+}
