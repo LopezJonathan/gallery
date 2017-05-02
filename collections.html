@@ -10,6 +10,8 @@
 </script>
 <script src="scripts/jquery-3.2.1.slim.min.js"></script>
 <script src="scripts/jquery.fancybox.min.js"></script>
+<script src="scripts/myscripts.js"></script>
+
 <link href="styles/mystyles.css" rel="stylesheet" type="text/css">
 <link href="styles/jquery.fancybox.min.css" rel="stylesheet" type="text/css">
 </head>
@@ -17,64 +19,28 @@
 <body>
 <div>
   <h1>Artist Brand</h1>
-	<div>
-		<h2>Black-Ink Art</h2>
-		<div>
-			<div>
-		    	<a href="images/black ink/dragon.jpg" data-fancybox="images" data-caption="My caption">
-		    		<img src="images/black ink/dragon.jpg" alt=""/>
-		    	</a>
-		    </div>
-		    <div>
-		    	<a href="images/black ink/leopard.jpg" data-fancybox="images" data-caption="My caption">
-		    		<img src="images/black ink/leopard.jpg" alt=""/>
-		    	</a>
-		    </div>
-		    <div>
-		    	<a href="images/black ink/phoenix.jpg" data-fancybox="images" data-caption="My caption">
-		    		<img src="images/black ink//phoenix.jpg" alt=""/>
-		    	</a>
-		    </div>
-		    <div>
-		    	<a href="images/black ink/puppet-master.jpg" data-fancybox="images" data-caption="My caption">
-		    		<img src="images/black ink/puppet-master.jpg" alt=""/>
-		    	</a>
-		    </div>
-		    <div>
-		    	<a href="images/black ink/tunnel.jpg" data-fancybox="images" data-caption="My caption">
-		    		<img src="images/black ink/tunnel.jpg" alt=""/>
-		    	</a>
-		    </div>
-		</div>
-		<h2>Color-Ink Art</h2>
-		<div>
-			<div>
-		    	<a href="images/color ink/birds-flowers.jpg" data-fancybox="images" data-caption="My caption">
-		    		<img src="images/color ink/birds-flowers.jpg" alt=""/>
-		    	</a>
-		    </div>
-		    <div>
-		    	<a href="images/color ink/day-of-the-dead.jpg" data-fancybox="images" data-caption="My caption">
-		    		<img src="images/color ink/day-of-the-dead.jpg" alt=""/>
-		    	</a>
-		    </div>
-		    <div>
-		    	<a href="images/color ink/filipino-girl.jpg" data-fancybox="images" data-caption="My caption">
-		    		<img src="images/color ink/filipino-girl.jpg" alt=""/>
-		    	</a>
-		    </div>
-		    <div>
-		    	<a href="images/color ink/seattle-lady.jpg" data-fancybox="images" data-caption="My caption">
-		    		<img src="images/color ink/seattle-lady.jpg" alt=""/>
-		    	</a>
-		    </div>
-		    <div>
-		    	<a href="images/color ink/young-girl-portrait.jpg" data-fancybox="images" data-caption="My caption">
-		    		<img src="images/color ink/young-girl-portrait.jpg" alt=""/>
-		    	</a>
-		    </div>
-		</div>
-	</div>
+  <div class="container">
+    <div class="item">
+      <h2>Black-Ink Art</h2>
+      <div>
+      <div><a href="images/black ink/dragon.jpg" data-fancybox="images" data-caption="My caption" rel="blkink"><img src="images/black ink/dragon.jpg" alt="black ink dragon"/></a></div>
+      <div><a href="images/black ink/leopard.jpg" data-fancybox="images" data-caption="My caption" rel="blkink" style="display: none"><img src="images/black ink/leopard.jpg" alt="black ink leopard"/></a></div>
+      <div><a href="images/black ink/phoenix.jpg" data-fancybox="images" data-caption="My caption" rel="blkink" style="display: none"><img src="images/black ink//phoenix.jpg" alt="black ink leopard"/></a></div>
+      <div><a href="images/black ink/puppet-master.jpg" data-fancybox="images" data-caption="My caption" rel="blkink" style="display: none"><img src="images/black ink/puppet-master.jpg" alt="black ink puppet master"/></a></div>
+      <div><a href="images/black ink/tunnel.jpg" data-fancybox="images" data-caption="My caption" rel="blkink" style="display: none"><img src="images/black ink/tunnel.jpg" alt="black ink shadow figure enters swirling tunnel"/> </a></div>
+      </div>
+    </div>
+    <div class="item">
+      <h2>Color-Ink Art</h2>
+      <div>
+      <div><a href="images/color ink/birds-flowers.jpg" data-fancybox="images" data-caption="My caption" rel="clrink"><img src="images/color ink/birds-flowers.jpg" alt="color ink two birds with two flowers"/></a></div>
+      <div><a href="images/color ink/day-of-the-dead.jpg" data-fancybox="images" data-caption="My caption" rel="clrink" style="display: none"><img src="images/color ink/day-of-the-dead.jpg" alt="color ink day of the dead"/></a></div>
+      <div><a href="images/color ink/filipino-girl.jpg" data-fancybox="images" data-caption="My caption" rel="clrink" style="display: none"><img src="images/color ink/filipino-girl.jpg" alt="color ink filipino girl eats rice"/></a></div>
+      <div><a href="images/color ink/seattle-lady.jpg" data-fancybox="images" data-caption="My caption" rel="clrink" style="display: none"><img src="images/color ink/seattle-lady.jpg" alt="color ink lady's face with seattle city background"/></a></div>
+      <div><a href="images/color ink/young-girl-portrait.jpg" data-fancybox="images" data-caption="My caption" rel="clrink" style="display: none"><img src="images/color ink/young-girl-portrait.jpg" alt="color ink young girl and butterflies"/></a></div>
+      </div>
+    </div>
+  </div>
 </div>
 <footer></footer>
 </body>
